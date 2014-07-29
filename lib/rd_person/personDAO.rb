@@ -9,7 +9,6 @@ class PersonDAO
 				      :client_id => client_id,
 					  :client_secret => client_secret,
 				      :ouath_token => ouath_token}
-		puts 'initialize with sucess (PersonDAO)'
 	end
 
 	def create(person)

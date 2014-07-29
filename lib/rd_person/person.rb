@@ -8,8 +8,6 @@ class Person
         @job_title = new_job_title
         @phone = new_phone
         @websiste = new_website
-
-        puts 'Person initialize with sucess!'
     end
 
     attr_accessor :name
