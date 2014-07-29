@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    rd_person (0.0.1)
+      restforce (~> 1.4.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.8.9)
+      multipart-post (~> 1.2.0)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
+    hashie (2.0.5)
+    json (1.8.1)
+    multipart-post (1.2.0)
+    rake (10.3.2)
+    restforce (1.4.3)
+      faraday (~> 0.8.4)
+      faraday_middleware (>= 0.8.8)
+      hashie (>= 1.2.0, < 2.1)
+      json (>= 1.7.5, < 1.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.6)
+  rake
+  rd_person!
