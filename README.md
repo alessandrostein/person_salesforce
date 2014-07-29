@@ -1,6 +1,6 @@
 # RdPerson
 
-TODO: Write a gem description
+This Gem integrates a new person with SalesForce CRM using restforce as dependency.
 
 ## Installation
 
