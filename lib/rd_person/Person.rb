@@ -10,12 +10,6 @@ class Person
         @website = new_website
     end
 
-    attr_accessor :name
-    attr_accessor :last_name
-    attr_accessor :email
-    attr_accessor :company
-    attr_accessor :job_title
-    attr_accessor :phone
-    attr_accessor :website
+    attr_accessor :name, :last_name, :email, :company, :job_title, :phone, :website
 
  end # class Person
