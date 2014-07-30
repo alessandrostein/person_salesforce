@@ -7,7 +7,7 @@ class Person
         @company = new_company
         @job_title = new_job_title
         @phone = new_phone
-        @websiste = new_website
+        @website = new_website
     end
 
     attr_accessor :name
