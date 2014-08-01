@@ -12,7 +12,7 @@ describe '#SalesforceClient' do
 			person = Person.new("Alessandro", "Stein", "alessandro@alessandrostein.com", "Resultados Digitais",
 			                    "Developer", "+55 47 0000 0000", "www.alessandrostein.com")
 
-			@new_salesforceclient.create(person)
+			#@new_salesforceclient.create(person)
 		end
 	end
 

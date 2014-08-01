@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rd_person (0.0.1)
+    rd_person (0.0.4)
       restforce (~> 1.4.3)
       rspec (~> 3.0.0)
 
