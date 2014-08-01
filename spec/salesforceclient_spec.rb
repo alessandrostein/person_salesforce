@@ -4,7 +4,7 @@ require '../lib/rd_person/Person'
 describe '#SalesforceClient' do
 
 	before do 
-		@new_salesforceclient = SalesforceClient.new
+		@new_salesforceclient = SalesforceClient.new('', '', '','', '')
 	end
 
 	context 'Create a new Lead' do
